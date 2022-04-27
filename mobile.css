@@ -1,0 +1,207 @@
+body {
+    background-color: ;
+}
+
+#logo {
+    width: 10em;
+    height: 5em;
+    border-radius: 50%;
+    position: relative;
+    z-index: 999999;
+}
+
+#nav {
+    height: 60px;
+    position: absolute;
+    width: 100%;
+    margin: 0 0 0 0;
+}
+
+nav ul li {
+    display: none;
+}
+
+#banner {
+    height: 250px;
+}
+
+h1,  h2 {
+    color: #fff;
+    font-size: 1.4em;
+}
+
+h1 {
+    font-size: 2.2em;
+}
+
+#skillset {
+    width: 150px;
+    height: 150px;
+    margin: -50px auto 0;
+}
+
+#skillset h3 {
+    font-size: 1.2rem;
+}
+
+#skills {
+    min-height: 800px;
+    
+    margin: 0 auto;
+    display: flex;
+    flex-direction: ;
+    justify-content: center;
+    align-items: center;
+}
+
+#skills div {
+    width: ;
+    height: 150px;
+}
+
+#about {
+    width: 100%;
+    display: block;
+    height: auto;
+    margin-bottom:;
+}
+
+#abttext {
+    width: 100%;
+    margin: 0;
+    padding: 20px;
+    display: ;
+    
+}
+
+#desc {
+    width: 100%;
+    padding: 10px;
+}
+
+#image {
+    width: 100%;
+    padding: 0 10px;
+    
+}
+
+#image img {
+    height: 300px;
+    width: 100%;
+    float: ;
+}
+
+#projects {
+    min-height: 1300px;
+    width: 100%;
+}
+
+#project {
+    height: 300px;
+    width: ;
+}
+
+
+#testimonial {
+    width: 350px;
+    height: 350px;
+}
+
+
+.quotedetails {
+    height: 60px;
+    width: 90%;
+    position: static;
+    align-self: baseline;
+}
+
+#contact {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+#reach {
+    width: 100%;
+    height: 400px;
+}
+
+#socials {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 20px auto;
+}
+
+form input, form textarea {
+    width: 100%;
+    margin: 2px;
+}
+
+#right {
+    display: none;
+}
+
+#right button {
+    width: 80px;
+    height: 50px;
+}
+
+#right h2 {
+    font-size: 1.3rem;
+}
+
+nav {
+    width: 0px;
+    height: 100vh;
+    display: block;
+    padding: 100px 0 0 0;
+    background-color: #124a75;
+    position: relative;
+    top: 0;
+    z-index: 1;
+    overflow: hidden;
+    transition: 1s;
+}
+
+nav a li {
+    transition: 0.5s;
+}
+
+nav li {
+    display: block;
+    padding: 10px;
+}
+
+nav a:hover li {
+    background-color: #fff;
+    color: ;
+}
+
+.closenav {
+    position: absolute;
+    display: block;
+    top: 0;
+    right: 0;
+    width: 50px;
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #fff;
+    background-color: #124a75;
+    box-shadow: 7px 7px 10px #072d4b, -7px -7px 10px #0a2a42;
+    height: 50px;
+    border: none;
+}
+
+.opennav {
+    float: right;
+    position: absolute;
+    display: block;
+    width: 60px;
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #fff;
+    background-color: #124a75;
+    box-shadow: 3px 3px 5px #072d4b, -3px -3px 5px #0a2a42;
+    height: 60px;
+    border: none;
+}

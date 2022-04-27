@@ -1,0 +1,40 @@
+body {
+    background-color: ;
+}
+
+#left{
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+#right {
+    display: none;
+}
+
+@media (max-width:900px) {
+#abttext {
+    display: block;
+}  
+
+#image, #desc {
+    width: 100%;
+    margin: 0;
+}
+
+#logo {
+    height: 10rem;
+    height: 10rem;
+}
+
+.text {
+    height: 50%;
+}
+
+* {
+    font-size: 95%;
+}
+
+
+
+
